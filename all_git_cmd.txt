@@ -1,0 +1,27 @@
+check the branch:
+SYNTAX:			git checkout branchName
+
+SYNTAX: git branch
+--------------------
+to add a file to a branch
+
+SYNTAX:			git add file_name.extension
+
+--------------------
+push/commit a file to branch
+
+SYNTAX:			git push origin main
+----------------------------
+link the repo to the local system
+
+SYNTAX:			git remote add origin repo_url
+-------------------------------	
+setup the git configuration with the new user_name & new_mail_id
+
+SYNTAX: git config --global user.mail "meetrana878@gmail.com"
+SYNTAX: git config --global user.name "Meet162"
+----------------------------
+verify the setting's of the git config
+
+SYNTAX: git config --global --list
+after that process with the regular commit: SYNTAX: git commit -m "Initial Commit, Message"
